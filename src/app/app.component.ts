@@ -11,7 +11,7 @@ export class AppComponent {
 	personas: Persona[] = [new Persona('Juan', 'Perez'), 
   						new Persona('Laura', 'Juarez'),
 						new Persona('Carla', 'Gomez')];
-	
+		
 	personaAgregada(persona: Persona):void{
 		this.personas.push(persona);
 	}
