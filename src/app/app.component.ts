@@ -7,8 +7,12 @@ import { Persona } from './persona.model';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  titulo = 'Listado de Personas';
-  personas: Persona[] = [new Persona('Juan', 'Perez'), 
+	titulo = 'Listado de Personas';
+	personas: Persona[] = [new Persona('Juan', 'Perez'), 
   						new Persona('Laura', 'Juarez'),
 						new Persona('Carla', 'Gomez')];
+	
+	personaAgregada(persona: Persona):void{
+		this.personas.push(persona);
+	}
 }
