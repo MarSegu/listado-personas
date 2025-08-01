@@ -1,27 +1,142 @@
-# ListadoPersonas
+# 👤 listado-personas
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.6.
+<p align="center">
+  <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT" />
+  <img src="https://img.shields.io/badge/TypeScript-73.9%25-blue" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/JavaScript-18.5%25-yellow" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/HTML-6.6%25-orange" alt="HTML" />
+  <img src="https://img.shields.io/badge/CSS-1%25-purple" alt="CSS" />
+  <img src="https://img.shields.io/badge/status-active-brightgreen" alt="Status" />
+</p>
 
-## Development server
+---
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## ✨ Overview
 
-## Code scaffolding
+**listado-personas** is a web application for listing people developed with Angular 12. The project demonstrates best practices in component-based development, UI design, and TypeScript programming for modern web applications.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+---
 
-## Build
+## 🎨 Tech Stack
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+<div align="center">
 
-## Running unit tests
+| Language / Tool                                        | Usage                                     |
+|--------------------------------------------------------|-------------------------------------------|
+| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="24"/> TypeScript | Main logic and Angular components         |
+| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" width="24"/> Angular 12 | Frontend framework                        |
+| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="24"/> JavaScript | Supplementary scripts                     |
+| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="24"/> HTML | Markup and templates                      |
+| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="24"/> CSS | Styling                                   |
+| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="24"/> GitHub Actions | CI/CD automation (optional)               |
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+</div>
 
-## Running end-to-end tests
+---
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## 🗂️ Project Structure
 
-## Further help
+```text
+.
+├── src/                       # Main source code for Angular app
+│   ├── app/                   # Application modules and components
+│   ├── assets/                # Static assets (images, etc.)
+│   ├── environments/          # Environment configuration files
+│   └── index.html             # Main HTML entry point
+├── angular.json               # Angular project configuration
+├── package.json               # Node dependencies and scripts
+├── tsconfig.json              # TypeScript configuration
+├── .github/workflows/         # CI/CD pipelines (GitHub Actions, if present)
+└── README.md                  # Project documentation
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+---
+
+## ⚡ Features
+
+- Person listing and management
+- Component-based architecture
+- Responsive UI with Angular 12
+- Modular, maintainable TypeScript code
+- Optional CI/CD integration with GitHub Actions
+- Well-documented for learning and experimentation
+
+---
+
+## 🛠️ Getting Started
+
+> **Run the application in minutes.**
+
+```bash
+# Clone the repository
+git clone https://github.com/MarSegu/listado-personas.git
+cd listado-personas
+
+# Install dependencies
+npm install
+
+# Run the Angular development server
+ng serve
+
+# The app will be available at http://localhost:4200
+```
+
+---
+
+## ⚙️ Main Configuration
+
+| File / Variable         | Description                            | Example              |
+|------------------------|----------------------------------------|----------------------|
+| `angular.json`         | Angular project settings                | Build options, assets|
+| `package.json`         | Node dependencies and scripts           | Angular, etc.        |
+| `tsconfig.json`        | TypeScript configuration                | Compile options      |
+| `src/environments/`    | Environment-specific settings           | API URLs, etc.       |
+
+---
+
+## 🧪 Testing
+
+> Run automated tests.
+
+```bash
+ng test
+```
+
+---
+
+## 🚀 Deployment
+
+- **Production build:**
+  ```bash
+  ng build --prod
+  ```
+- **CI/CD:** Automated via workflows in `.github/workflows/` (if configured).
+
+---
+
+## 📤 Outputs
+
+| Output            | Description                    |
+|-------------------|-------------------------------|
+| `dist/`           | Production build artifacts     |
+| `localhost:4200`  | Development server endpoint    |
+| Test results      | Results from automated tests   |
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome!  
+Open an issue or pull request for suggestions and improvements.
+
+---
+
+## 📃 License
+
+Distributed under the MIT License. See [LICENSE](LICENSE) for more details.
+
+---
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=110&section=footer"/>
+</p>
